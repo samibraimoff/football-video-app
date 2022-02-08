@@ -1,0 +1,26 @@
+.video-item {
+  width: 350px;
+  color: white;
+  border: 1px solid rgb(87, 86, 86);
+  padding: 0.5em 0.5em;
+  box-sizing: border-box;
+  margin-bottom: 0.8em;
+}
+
+.video-item h4 {
+  text-align: center;
+  padding: 0.5em 0.2em;
+  text-transform: uppercase;
+}
+
+.video-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video-info h5 {
+  text-align: center;
+  padding: 0.5em 0.2em;
+  color: rgb(145, 145, 145);
+}
