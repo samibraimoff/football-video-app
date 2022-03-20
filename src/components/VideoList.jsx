@@ -15,15 +15,13 @@ const VideoList = () => {
     getData();
   }, []);
 
-  console.log(data);
-
   return (
     <Fragment>
       <div className='list-container'>
         {data.length > 0 &&
-          data
-            .slice(1, 10)
-            .map((video) => <VideoItem key={video.thumbnail} video={video} />)}
+          data.map((video) => (
+            <VideoItem key={video.thumbnail} video={video} />
+          ))}
       </div>
     </Fragment>
   );
